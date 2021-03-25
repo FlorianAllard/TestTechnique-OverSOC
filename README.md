@@ -1,4 +1,5 @@
 # TestTechnique-OverSOC
+La version d'Unity ne devrait pas avoir d'importance. J'ai utilisé la 2020.2.1f1
 
 Une Zone est créée au lancement de l'application, et sera générée à partir d'une ZoneData et d'un nombre d'entités à créer. On prendra en compte EntitiesPerRow afin de définir le nombre maximal d'entités par lignes et après un calcul le nombre de lignes. On place chaque entité de manière à les espacer de deux unités en X et Z. Une fois instanciée, l'entité est placée dans un pool pour faciliter et surtout optimiser la création et destruction d'entités.
 Une fois les entités placées, une couleur leur ai assignée à partir d'un tableau de couleurs stocké dans ZoneData. Toutes les entités ont le même matériau, on utilise donc les MaterialPropertyBlocks pour changer leur couleur.
